@@ -8,4 +8,19 @@
 @theme {
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+    
+    /* Paleta de colores para bienes raíces */
+    --color-beige: #B2AB81;
+    --color-marron-oscuro: #6C2F27;
+    --color-verde-oliva: #4C4F3C;
+    --color-marron-dorado: #A8673D;
+    --color-beige-claro: #F2EEE4;
+    
+    /* Mapear a clases de Tailwind */
+    --color-primary: var(--color-marron-oscuro);
+    --color-secondary: var(--color-marron-dorado);
+    --color-accent: var(--color-beige);
+    --color-background: var(--color-beige-claro);
+    --color-text-dark: var(--color-marron-oscuro);
+    --color-text-light: var(--color-verde-oliva);
 }
