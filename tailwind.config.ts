@@ -7,6 +7,7 @@ export default {
     "./resources/**/*.vue",
     "./storage/framework/views/*.php",
     "./vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php",
+    "./node_modules/preline/dist/*.{js,ts}",
   ],
   theme: {
     extend: {
@@ -19,5 +20,7 @@ export default {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('preline/plugin'),
+  ],
 } satisfies Config
