@@ -9,16 +9,9 @@ export default {
     "./vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php",
     "./node_modules/preline/dist/*.{js,ts}",
   ],
+  darkMode: 'class',
   theme: {
-    extend: {
-      colors: {
-        'beige': '#B2AB81',
-        'marron-oscuro': '#6C2F27',
-        'verde-oliva': '#4C4F3C',
-        'marron-dorado': '#A8673D',
-        'beige-claro': '#F2EEE4',
-      }
-    },
+    extend: {},
   },
   plugins: [
     require('preline/plugin'),
